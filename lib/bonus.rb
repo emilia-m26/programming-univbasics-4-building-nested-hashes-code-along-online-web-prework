@@ -20,12 +20,8 @@ def bonus
    }
   }
 
-  epic_tragedy[:capulet][:hero][:status]
-  epic_tragedy[:capulet][:heroine][:status]
-  
-  puts epic_tragedy
-
-  
+  epic_tragedy[:capulet][:hero][:status]="dead"
+  epic_tragedy[:capulet][:heroine][:status]="dead"
 
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
   epic_tragedy
